@@ -13,18 +13,18 @@ def izinler(a1,a2,a3):
         if x=="x":
             a1+=1
     for x in g:
-        if x == "r":
+        if x=="r":
             a2+=4
         if x == "w":
             a2+=2
-        if x == "x":
+        if x=="x":
             a2+=1
     for x in d:
         if x=="r":
             a3+=4
         if x=="w":
             a3+=2
-        if x == "x":
+        if x=="x":
             a3+=1
     print(a1,a2,a3)
 
