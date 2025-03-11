@@ -15,7 +15,7 @@ def izinler(a1,a2,a3):
     for x in g:
         if x=="r":
             a2+=4
-        if x == "w":
+        if x=="w":
             a2+=2
         if x=="x":
             a2+=1
